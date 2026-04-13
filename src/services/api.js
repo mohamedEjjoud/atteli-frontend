@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://atteli-backend-production.up.railway.app/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://atteli-backend-production.up.railway.app/api',
   withCredentials: true,
   headers: { 'Content-Type': 'application/json' },
   timeout: 15000,
